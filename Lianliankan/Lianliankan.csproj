@@ -59,6 +59,7 @@
       <DependentUpon>BlockModeForm.cs</DependentUpon>
     </Compile>
     <Compile Include="CGameControl.cs" />
+    <Compile Include="CGameLogic.cs" />
     <Compile Include="GameForm.cs">
       <SubType>Form</SubType>
     </Compile>

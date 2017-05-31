@@ -12,8 +12,9 @@ namespace Lianliankan
     /// </summary>
      class Vertex
     {
-        public  int row;         //行
-        public int col;         //列
+       
+        public int col;         //列,x
+        public int row;         //行,y
         public int info;       //信息类
         public Vertex()
         {
@@ -26,10 +27,11 @@ namespace Lianliankan
             col = v.col;
             info = v.info;
         }
-        public Vertex(int x,int y)
+        public Vertex(int col1,int row1)
         {
-            row = x;
-            col = y;
+            //row = x;
+            // col = y;
+            col = col1;row = row1;
         }
     }
 }
